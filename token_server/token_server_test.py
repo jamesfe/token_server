@@ -8,6 +8,10 @@ from __future__ import (absolute_import, division, print_function, unicode_liter
 
 import unittest
 from util import load_keys
+from flask_app import db
+from models import *
+
+# TODO: Fix this. (jf, 25 may 2015)
 
 
 class MyTestCase(unittest.TestCase):
